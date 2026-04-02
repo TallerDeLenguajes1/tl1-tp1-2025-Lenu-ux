@@ -1,7 +1,8 @@
 # tp1
 # TALLER DE LENGUAJE 1
 ## Ejercicio 2
-## Respuestas sobre .gitignore
+### Respuestas sobre .gitignore
+
 **-¿Por qué es conveniente incluirlo?** 
 _Sirve como filtrador de archivos basura o configuraciones personales al repositor_
 **-¿Cuando se debe hacer?**
@@ -20,3 +21,12 @@ El programa realiza una transformacion secuencial de un número entero mediante 
     2. No haber puesto en la linea 17 y 23.
     3. No haber puesto el signo de direccion de memoria **&** en _scanf_ de la linea 12.
     4. En la linea 21 no modifica el duplicado, ya que recibe una copia de valor1, y no la modifica, deberia usarse puntero e invocarla con el parametro _&valor1_.
+
+## Ejercicio 4
+**c)** Los archivos que se ven son:
+    - codigo_misterioso.c
+    -codigo_misterioso.exe
+    -codigo_sin_funcionar.c
+    -codigo_sin_funcionar.exe
+    -tp1_1.c
+No hacen falta que aparezcan los archivos .exe
