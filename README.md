@@ -30,3 +30,6 @@ El programa realiza una transformacion secuencial de un número entero mediante 
     -codigo_sin_funcionar.exe
     -tp1_1.c
 No hacen falta que aparezcan los archivos .exe
+**g)** ¿A que se debe?: Porque el puntero solo guarda la direccion de memoria de una variable, y al mostrar lo que almacena p_num me mostrara la direccion de memoria de num.
+¿Que obtiene en el punto 4?: la direccion de memoria del puntero p_num.
+¿Es igual a los anteriores?: No, porque la direccion del puntero es distinta a la variable que apunta.
